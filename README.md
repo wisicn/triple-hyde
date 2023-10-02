@@ -1,62 +1,52 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://github.com/htr3n/hyde-hyde/blob/master/LICENSE.md) ![GitHub release](https://img.shields.io/github/release/htr3n/hyde-hyde.svg) ![GitHub stars](https://img.shields.io/github/stars/htr3n/hyde-hyde.svg) ![GitHub forks](https://img.shields.io/github/forks/htr3n/hyde-hyde.svg) ![GitHub issues](https://img.shields.io/github/issues/htr3n/hyde-hyde.svg) ![GitHub issues closed](https://img.shields.io/github/issues-closed/htr3n/hyde-hyde.svg)
 
-# Hyde-hyde
+# Triple-hyde
 
-__`Hyde-hyde`__ is a [Hugo](https://gohugo.io)'s theme inspired and derived from @spf13's [Hyde](https://github.com/spf13/hyde.git) and [Nate Finch's blog](https://npf.io). 
+__`Triple-hyde`__ is a [Hugo](https://gohugo.io)'s theme that extends htrn's theme that was originally derived from @spf13's [Hyde](https://github.com/spf13/hyde.git) and [Nate Finch's blog](https://npf.io). 
 
-> NOTICE: Maintainers / collaborators seeking: As I'm underwater with my full time job at the moment, I'm actively looking for and welcome any new maintainers or collaborators. If you are interested, comment on [#130](https://github.com/htr3n/hyde-hyde/issues/130) and I can add you to the project. TIA.
+## Main changes
 
-## Breaking Changes
+`hyde-hyde` has been paused in development for awhile, this fork implements the following changes:
 
-Since version 2.0, __`hyde-hyde`__ has been overhauled and, therefore, might cause some disruptions.
+* Adds support for Google Analytics v4
 
-* The main styles are refactored and redeveloped using SCSS (see [_assets/scss_](https://github.com/htr3n/hyde-hyde/blob/master/assets/scss)),  `poole.css` and `hyde.css` are no longer needed because `hyde-hyde.scss` already incorporates relevant elements (I still keep them there for reference purpose)
-  * Per PR [#45 by [@jd4no](https://github.com/jd4no), `hyde-hyde` can use SCSSs directly in the templates instead of the generated CSSs. The generated CSSs and the generated resources are still kept in `hyde-hyde` in order to ensure the demo on [Hugo theme site](https://themes.gohugo.io) working.
-* The layouts have been heavily restructured and modularised further (see [_layouts_](https://github.com/htr3n/hyde-hyde/blob/master/layouts))
-* Adding '[_Portfolio_](https://github.com/htr3n/hyde-hyde/blob/master/layouts/portfolio)' page inspired by Xiaoying Riley (@3rdwave_themes) [Developer-Theme](https://github.com/xriley/developer-theme)
-* Switching to use system fonts instead of Web fonts (e.g. privacy issues)
-* Experimenting a collapsible menu in mobile mode
-* Adding _Table of Contents_
-  * Configure using `.Site.Params.toc` with two possible value: "hugo" (using Hugo `{{ .TableOfContents }}`, and "tocbot" (using [Tocbot](https://tscanlin.github.io/tocbot/)), remove `.Site.Params.toc` to disable TOC
-  * Tocbot can be configured in [layouts/partials/page-single/footer.html](layouts/partials/page-single/footer.html) with options as described in [its documentation](https://tscanlin.github.io/tocbot/#api)
-
-For more details, please refer to [CHANGELOG](https://github.com/htr3n/hyde-hyde/blob/master/CHANGELOG.md).  A real site in action can be found [here](https://htr3n.github.io) and its [WIP source](https://github.com/htr3n/htr3n-blog) for reference.
+For more details, please refer to [CHANGELOG](https://github.com/derme302/triple-hyde/blob/master/CHANGELOG.md).  A real site in action can be found [here](https://derme.coffee/) and the [example site](https://derme.coffee/triple-hyde) for reference.
 
 ## Usage
 
 ### Installation
 
-__`Hyde-hyde`__ can be easily installed as many other Hugo themes:
+__`triple-hyde`__ can be easily installed as many other Hugo themes:
 
 ```sh
 $ cd HUGO_PROJECT
 
 # then either clone hyde-hyde
-$ git clone https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde
+$ git clone https://github.com/derme302/triple-hyde.git themes/triple-hyde
 
 # or just add hyde-hyde as a submodule
-$ git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde
+$ git submodule add https://github.com/derme302/triple-hyde.git themes/triple-hyde
 ```
 
-After that, choose `hyde-hyde` as the main theme.
+After that, choose `triple-hyde` as the main theme.
 
 * `config.toml` 
 
 ```toml
-theme = "hyde-hyde"
+theme = "triple-hyde"
 ```
 
 * `config.yaml`
 
 ```yaml
-theme : "hyde-hyde"
+theme : "triple-hyde"
 ```
 
-That's all. You can render your site using `hugo` and see `hyde-hyde` in action.
+That's all. You can render your site using `hugo` and see `triple-hyde` in action.
 
 ### Options
 
-__`Hyde-hyde`__ essentially inherits most of Hyde's [options](https://github.com/spf13/hyde#options). There are some extra options though
+__`Triple-hyde`__ essentially inherits most of Hyde's [options](https://github.com/spf13/hyde#options). There are some extra options though
 
 * `highlightjs = true`: use [highlight.js](https://highlightjs.org) instead of Hugo built-in support for code highlighting
 
@@ -192,6 +182,8 @@ For example, for the [exampleSite](https://github.com/htr3n/hyde-hyde/tree/maste
 <img src='https://github.com/htr3n/hyde-hyde/raw/master/images/mobile.png' alt='hyde-hyde in mobile mode' width='60%'>
 
 ## Author(s)
+
+* `hyde-hyde` originally developed by [Alex T](https://github.com/htr3n)
 
 * Original developed by [Mark Otto](https://github.com/mdo)
 

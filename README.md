@@ -2,7 +2,7 @@
 
 # Triple-hyde
 
-__`Triple-hyde`__ is a [Hugo](https://gohugo.io)'s theme that extends htrn's theme that was originally derived from @spf13's [Hyde](https://github.com/spf13/hyde.git) and [Nate Finch's blog](https://npf.io). 
+__`Triple-hyde`__ is a [Hugo](https://gohugo.io)'s theme that extends @htrn's [Hyde-hyde](https://github.com/htrn/hyde-hyde.git) theme that was originally derived from @spf13's [Hyde](https://github.com/spf13/hyde.git) and [Nate Finch's blog](https://npf.io). 
 
 ## Main changes
 

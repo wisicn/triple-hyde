@@ -3,6 +3,8 @@ title = "About Hugo"
 date = "2014-04-09"
 +++
 
+![Hugo](/img/hugo.png#center)
+
 Hugo is a static site engine written in Go.
 
 

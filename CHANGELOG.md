@@ -6,6 +6,8 @@ __2023-10__
 
 * Add support for Google Analytics v4
 * Rebrand theme `triple-hyde`
+* Add support for Mastodon in sidebar
+* Add support for image short codes
 
 __2018-11__
 

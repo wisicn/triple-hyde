@@ -8,7 +8,8 @@ __`Triple-hyde`__ is a [Hugo](https://gohugo.io)'s theme that extends @htrn's [H
 
 `hyde-hyde` has been paused in development for awhile, this fork implements the following changes:
 
-* Adds support for Google Analytics v4
+* [PR #1](https://github.com/derme302/triple-hyde/pull/1) Adds support for Google Analytics v4
+* [PR #5](https://github.com/derme302/triple-hyde/pull/5) by [@eatingbrb](https://github.com/eatingbrb) Adds support for Mastodon in social sidebar
 
 For more details, please refer to [CHANGELOG](https://github.com/derme302/triple-hyde/blob/master/CHANGELOG.md).  A real site in action can be found [here](https://derme.coffee/) and the [example site](https://derme.coffee/triple-hyde) for reference.
 
@@ -72,9 +73,8 @@ __`Triple-hyde`__ essentially inherits most of Hyde's [options](https://github.c
 
   ```toml
   [params.social]
-  	twitter = "htr3n"
-  	keybase = "htr3n"
-  	github = "htr3n"
+  	mastodon = "https://mastodon.gamedev.place/@derme302"
+  	github = "derme302"
   	...
   ```
   

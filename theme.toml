@@ -7,9 +7,10 @@ features = ["blog", "theme", "highlight.js", "font-awesome", "responsive", "disq
 homepage = "https://github.com/derme302/triple-hyde"
 min_version = "0.43"
 
-[author]
-    name = "derme302"
-    homepage = "https://derme.coffee"
+authors = [
+  {name = "derme302", homepage = "https://derme.coffee/"},
+  {name = "htr3n", homepage = "https://htr3n.github.io"}
+]
 
 # If Porting existing theme
 [original]

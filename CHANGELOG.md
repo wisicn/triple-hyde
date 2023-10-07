@@ -2,7 +2,7 @@
 
 This changelog mainly documented some major changes, updates or fixes (with credits) for reference purposes. It by no means covers all contributors. Nonetheless, to the bottom of my heart, I truly appreciate all of your time and contributions.
 
-__next__
+__2023-10-7__
 
 * [PR #7](https://github.com/derme302/triple-hyde/pull/7) correctly breaks out the about section on the sidebar as a partial
 * [PR #8](https://github.com/derme302/triple-hyde/pull/8) updates Font Awesome v6 and adds the Threads icon

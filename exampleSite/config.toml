@@ -6,8 +6,6 @@ title = "Title"
 theme = "triple-hyde"
 
 ## Hugo Built-in Features
-# disqusShortname = "your-disqus-shortname"
-# googleAnalytics = "your-google-analytics-id"
 # enableRobotsTXT = true
 
 # summarylength = 30
@@ -94,3 +92,9 @@ theme = "triple-hyde"
     identifier = "about"
     weight = 300
     url = "/about/"
+
+# [[services.googleAnalytics]]
+    # id = 'GA-YOURID'
+
+# [[services.disqus]]
+    # shortname = 'GA-YOURID'

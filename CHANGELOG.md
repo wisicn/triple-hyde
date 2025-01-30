@@ -2,6 +2,9 @@
 
 This changelog mainly documented some major changes, updates or fixes (with credits) for reference purposes. It by no means covers all contributors. Nonetheless, to the bottom of my heart, I truly appreciate all of your time and contributions.
 
+__2025-01__
+* [PR #19](https://github.com/derme302/triple-hyde/pull/19) by [burki169](https://github.com/burki169) improves the display of international dates
+
 __2024-12__
 
 * [PR #18](https://github.com/derme302/triple-hyde/pull/18) Updates to the new config services format required by Hugo 0.134.0
